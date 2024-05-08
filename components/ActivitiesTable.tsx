@@ -1,7 +1,7 @@
 // ActivitiesTable.js
 import React from "react";
 
-const ActivitiesTable = ({ activitiesData }) => {
+const ActivitiesTable = ({ activitiesData }: { activitiesData: any }) => {
   return (
     <>
       <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
