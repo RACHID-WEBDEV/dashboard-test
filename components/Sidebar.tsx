@@ -15,7 +15,7 @@ const Sidebar = ({ openSideMenu }: { openSideMenu: boolean }) => {
     <>
       <aside
         className={classNames(
-          "fixed top-0 left-0 z-40 w-[312px] h-screen transition-transform lg:translate-x-0 ",
+          "fixed top-0 left-0 z-40 w-[260px] md:w-[312px] h-screen transition-transform lg:translate-x-0 ",
           { "-translate-x-full": openSideMenu === false },
           { "translate-x-0 ": openSideMenu === true }
         )}
