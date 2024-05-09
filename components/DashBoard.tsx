@@ -26,7 +26,7 @@ const Dashboard = () => {
       <div className="p-4 lg:ml-[312px] ">
         <NavBar toggleSideBar={toggleSideBar} openSideMenu={openSideMenu} />
 
-        <div className="lg:p-4  rounded-lg mt-10 lg:mt-20 overflow-hidden">
+        <div className="lg:p-4  rounded-lg mt-20 overflow-hidden">
           <Main />
         </div>
       </div>
