@@ -18,12 +18,13 @@ const Dashboard = () => {
   const toggleSideBar = () => {
     setOpenSideMenu(!openSideMenu);
   };
+
   return (
     <>
-      <Sidebar />
+      <Sidebar openSideMenu={openSideMenu} />
 
       <div className="p-4 lg:ml-[312px] ">
-        <NavBar />
+        <NavBar toggleSideBar={toggleSideBar} openSideMenu={openSideMenu} />
 
         <div className="lg:p-4  rounded-lg mt-10 lg:mt-20 overflow-hidden">
           <Main />
